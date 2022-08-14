@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <link rel="short-cut icon"
+        href="https://i20.haber7.net/resize/1300x788//haber/haber7/photos/2018/44/pembe_flamingolarin_yuvasi_adana_1541238227_9011.jpg">
+    <meta charset="utf-8">
+    <title>ilk sayfam</title>
+    <meta name="description" content="html öğrenip yaptığım ilk sayfa">
+    <meta name="keywords" content="html,öğrenme">
+</head>
+
+<body id="ust">
+    <br id="x">Hiper Metin İşaretleme Dili web sayfalarını oluşturmak için kullanılan standart metin işaretleme dilidir.
+    <br id="xx">Java, Sun Microsystems mühendislerinden James Gosling tarafından geliştirilmeye başlanmış açık kaynak
+    kodlu, nesneye yönelik, zeminden bağımsız, yüksek verimli, çok işlevli, yüksek seviye, adım adım işletilen bir
+    dildir.
+    <p>
+        <!--metin etiketleri-->
+    <h1>başlık</h1>
+    <h2>başlık</h2>
+    <strong>rabia</strong>
+    <em>rabia</em>
+    <u>rabia</u>
+    <br><mark>rabia</mark>
+    H<sub>2</sub>O
+    10<sup>2</sup>
+    <code>rabia</code>
+    <pre>rabia</pre>
+    </p>
+    <p>
+        <!--liste etiketleri-->
+    <h4>alişveriş listesi</h4>
+    <ol start="2">
+        <li>elma</li>
+        <li>armut</li>
+    </ol>
+    <ol reversed type="a">
+        <li>elma</li>
+        <li>armut</li>
+    </ol>
+    <ul>
+        <li>elma</li>
+        <li>armut</li>
+    </ul>
+
+
+    </p>
+    <p>
+        <!--resim etiketleri-->
+    <figure>
+        <img src="https://i20.haber7.net/resize/1300x788//haber/haber7/photos/2018/44/pembe_flamingolarin_yuvasi_adana_1541238227_9011.jpg"
+            download alt="flamingo" weight="60" height="100" title="flamingo">
+        <figcaption>şekil 1 flamingo</figcaption>
+    </figure>
+
+    </p>
+    <p>
+        <!--link etiketleri-->
+        <br><a href="https://sozluk.gov.tr/">tdk ye gitmek için tıklayın</a>
+        <br><label><a href="https://sozluk.gov.tr/" target="_blankc">tdk ye gitmek için tıklayın</a></label>
+        <br><a href="#ust">Sayfa Başına gitmek için tıklayın</a>
+        <br><a href="#x">html</a>
+        <a href="#xx">java</a>
+
+    </p>
+    <p>  
+         <!--tablo etiketleri-->
+    <table border="8">
+        <caption>NÜFUSLAR</caption>
+        <thead>
+            <tr>
+                <th>Ülke</th>
+                <th>Nüfus</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Türkiye</td>
+                <td>77.000.000</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Yunanistan</td>
+                <td>12.000.000</td>
+            </tr>
+            <tr>
+                <td>Bulgaristan</td>
+                <td>7.000.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>Toplam=96.000.000</td>
+            </tr>
+        </tfoot>
+
+    </table>
+    </p>
+    <p>
+        <!--form etiketleri-->
+    <form name="email" action="mail.php" method="get">
+        Ad:<input type="text" name="ad" max="20" required autofocus autocomplete="on">
+        Soyad:<input type="text" name="soyad" max="20" required>
+        Email:<input type="email" name="email" size="20" disabled>
+        Web:<input type="url" name="web" placeholder="mobile için"><br>
+        Hakkında:<textarea name="hakkında" rows="3" cols="50"></textarea>
+        Cinsiyet:<input type="checkbox" name="erkek">Erkek
+        <input type="checkbox" name="kadın">Kadın<br>
+        Bilinenler:<input type="radio" name="diller" checked>html
+        <input type="radio" name="diller">java
+        <input type="radio" name="diller">css
+        <select name="iller">
+            <option>Kocaeli</option>
+            <option>İstanbul</option>
+            <option>Ankara</option>
+            <option selected>İzmir</option>
+        </select>
+        <input type=“hidden” name=“tarih” value="14 ağustos">
+        <!--diğer inputlar date,color,range,datetime,number,pasword,tel,search-->
+        <br><input type="reset" value="reset">
+        <input type="submit" value="submit">
+    </form>
+    </p>
+    <p>
+        <!--resim ve video etiketleri-->
+        <video height="300" width="300" autoplay controls loop preload="" muted>
+        <source src="video/video.mp4" type="video/mp4" </video><br>
+    </p>
+    <p>
+        <audio controls>  
+        <source src="koyal.mp3" type="audio/mpeg">  
+        Your browser does not support the html audio tag.  
+        </audio>  
+    </p>
+   
+    
+</body>
+
+</html>
